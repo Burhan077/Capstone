@@ -24,7 +24,7 @@ This repository contains the core components of the project focused on predictin
 
 ##  Deployment
 
-A live version of the project is available [here](). 
+A live version of the project is available [here](https://loandefaulting.streamlit.app/). 
 
 ##  Additional Notes
 
