@@ -9,7 +9,7 @@ This repository contains the core components of the project focused on predictin
 - `slides/` — Presentation materials summarizing key findings
 - `app/` — Files or links related to the deployed solution
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python (Pandas, NumPy, Scikit-learn, Seaborn)
 - Google Colab Notebook
