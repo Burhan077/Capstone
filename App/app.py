@@ -6,16 +6,16 @@ import os
 # loading files
 def load_model(filename):
     base_dir = os.path.abspath(os.path.dirname(__file__))
-    path = os.path.join(base_dir, "data", filename)
-    
+    path = os.path.join(base_dir, filename)  # no "data" here
     with open(path, "rb") as f:
         return pickle.load(f)
 
 
-scaler = load_model("scaler.pkl")
-rf_model = load_model("rfmodel.pkl")
-xgb_model = load_model("xgmodel.pkl")
-log_model = load_model("lgmodel.pkl")
+
+scaler = load_model("Training Data/scaler.pkl")
+rf_model = load_model("Training Data/rfmodel.pkl")
+xgb_model = load_model("Training Data/xgmodel.pkl")
+log_model = load_model("Training Data/lgmodel.pkl")
 
 
 # load scaler used
