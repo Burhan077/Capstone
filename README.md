@@ -1,4 +1,4 @@
-#  Data Science Project: LendingClub Loan Defaulters Prediction
+#  Capstone Project: LendingClub Loan Defaulters Prediction
 
 This repository contains the core components of the project focused on predicting loan defaulters using historical lending data.
 
