@@ -4,15 +4,15 @@ This repository contains the core components of the project focused on predictin
 
 ##  Repository Contents
 
-- `LoanDefaultersFinal.ipynb` — Main analysis and modeling workflow
+- `Notebook/` — Main analysis and modeling workflow
 - `docs/` — Project documentation outlining methodology, assumptions, and decisions
 - `slides/` — Presentation materials summarizing key findings
-- `app/` — Files or links related to the deployed solution
+- `App/` — Contains the training data and model specifications.
 
 ##  Technologies Used
 
 - Python (Pandas, NumPy, Scikit-learn, Seaborn)
-- Google Colab Notebook
+- Google Colab
 - Streamlit
   
 
