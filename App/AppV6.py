@@ -48,7 +48,7 @@ st.sidebar.info("Waiting for inputs... Fill the form to predict ")
 # ---------------------------
 # Main Input Section
 # ---------------------------
-st.header("📋 Enter Applicant Details")
+st.header("Enter Applicant Details")
 
 # 2x2 grid layout for inputs
 col1, col2 = st.columns(2)
@@ -103,4 +103,5 @@ if st.button(" Predict"):
     else:
         st.success(f" Final Decision: {prediction}")
         st.sidebar.success("Safe: Likely to Repay")
+
 
