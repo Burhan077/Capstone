@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pickle
 import os
- 
+  
 # ---------------------------
 # Helper to load models safely
 # ---------------------------
@@ -106,4 +106,5 @@ if np.any(input_data > 0):
     st.sidebar.write(f"**Decision:** {prediction}")
 else:
     st.sidebar.info("Waiting for inputs... ")
+
 
