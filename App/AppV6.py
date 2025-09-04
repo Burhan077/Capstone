@@ -16,8 +16,8 @@ def load_model(filename):
 # Load scaler and models
 # ---------------------------
 scaler = load_model("Training Data/scaler.pkl")
-rf_model = load_model("Training Data/lgmodel.pkl")
-xgb_model = load_model("Training Data/lgmodel.pkl")
+rf_model = load_model("Training Data/rfmodel.pkl")
+xgb_model = load_model("Training Data/xgmodel.pkl")
 log_model = load_model("Training Data/lgmodel.pkl")
 
 models = {
@@ -103,6 +103,7 @@ if st.button(" Predict"):
     else:
         st.success(f" Final Decision: {prediction}")
         st.sidebar.success("Safe: Likely to Repay")
+
 
 
 
