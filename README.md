@@ -3,7 +3,7 @@
 This repository contains the core components of the project focused on predicting loan defaulters using historical lending data.
 
 ##  Repository Contents
-
+ 
 - `Notebook/` — Main analysis and modeling workflow
 - `docs/` — Project documentation outlining methodology, assumptions, and decisions
 - `slides/` — Presentation materials summarizing key findings
