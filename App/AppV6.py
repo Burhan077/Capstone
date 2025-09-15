@@ -32,7 +32,7 @@ THRESHOLD = 0.8
 # Page Layout
 # ---------------------------
 st.set_page_config(page_title="Loan Default Prediction", layout="wide")
-st.title("LendingClub Loan Defaulters Prediction App")
+st.title("Defaulters Predictive Analysis")
 
 # ---------------------------
 # Sidebar - model selection + status
@@ -103,4 +103,5 @@ if st.button(" Predict"):
     else:
         st.success(f" Final Decision: {prediction}")
         st.sidebar.success("Safe: Likely to Repay")
+
 
