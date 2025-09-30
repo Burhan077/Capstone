@@ -1,4 +1,4 @@
-#  Capstone Project: LendingClub Loan Defaulters Prediction
+#  Capstone Project: Attrition Rate Prediction
 
 This repository contains the core components of the project focused on predicting loan defaulters using historical lending data.
 
@@ -31,5 +31,6 @@ A live version of the project is available [here](https://loandefaulting.streaml
 This repository is intended to showcase structure, methodology, and deployment practices. For full details, refer to the documentation and notebook.
 
 ---
+
 
 
