@@ -1,0 +1,2 @@
+*.pkl filter=lfs diff=lfs merge=lfs -text
+App/Training[[:space:]]Data/*.pkl filter=lfs diff=lfs merge=lfs -text
