@@ -32,7 +32,7 @@ THRESHOLD = 0.8
 # Page Layout
 # ---------------------------
 st.set_page_config(page_title="Loan Default Prediction", layout="wide")
-st.title("LendingClub Loan Defaulters Prediction App")
+st.title("Loan Prediction App")
 
 # ---------------------------
 # Sidebar - model selection + status
