@@ -16,8 +16,8 @@ def load_model(filename):
 # Load scaler and models
 # ---------------------------
 scaler = load_model("Training Data/scaler.pkl")
-rf_model = load_model("Training Data/rfmodel.pkl")
-xgb_model = load_model("Training Data/xgmodel.pkl")
+rf_model = load_model("Training Data/lgmodel.pkl")
+xgb_model = load_model("Training Data/lgmodel.pkl")
 log_model = load_model("Training Data/lgmodel.pkl")
 
 models = {
